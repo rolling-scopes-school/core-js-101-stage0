@@ -1,20 +1,18 @@
 module.exports = {
+  root: true,
   env: {
     commonjs: true,
-    es6: true,
+    es2024: true,
     node: true,
     mocha: true,
   },
-  extends: [
-    'airbnb-base',
-  ],
+  extends: ['airbnb-base', 'plugin:prettier/recommended'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2024,
   },
-  rules: {
-  },
+  noInlineConfig: true,
 };

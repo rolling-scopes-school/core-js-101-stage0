@@ -1,22 +1,26 @@
 {
-  "name": "core-js-101",
+  "name": "core-js-101-stage0",
   "version": "1.0.0",
-  "description": "Core JS 101",
+  "description": "Core JS 101 Stage0",
+  "main": "index.js",
   "scripts": {
     "test": "npm run lint && mocha",
     "lint": "node node_modules/eslint/bin/eslint.js ./src",
     "lint:fix": "node node_modules/eslint/bin/eslint.js ./src --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/core-js-101-stage0.git"
+  },
   "author": "aorgish, mikhama",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "mocha": "^6.2.2"
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "mocha": "^10.8.2",
+    "prettier": "^3.5.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mikhama/core-js-101.git"
-  }
+  "homepage": "https://github.com/rolling-scopes-school/core-js-101-stage0"
 }
